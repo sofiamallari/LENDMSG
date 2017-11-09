@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.lend.MainActivity"
+ >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bell"
+            android:scaleType="fitCenter"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Emergency"
+            android:textSize="20sp"
+            android:gravity="top|center"
+            android:textColor="#626262"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/m"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top|center"
+            android:scaleType="fitCenter"
+            android:text="Message"
+            android:textColor="#626262"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageButton
+            android:layout_marginTop="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/forecast"
+            android:background="#c02c2c"
+            />
+    </LinearLayout>
+</LinearLayout>
